@@ -1,0 +1,33 @@
+1. Client-side code 
+    1. Executes in a browser and generates a page
+    2. Provides user interactivity
+    3. Makes requests to a server
+    4. Has a window or global object
+    5. Works with the DOM.
+    6. Needs AJAX to make HTTP requests
+    7. Script tags are used for modularity of code
+
+Server side code
+    1. Runs in a server process
+    2. Doesn't execute in a browswer or generate a page
+    3. Provides responses to HTTP requests
+    4. Does not interact with the DOM
+    5. Makes direct HTTP requests
+    6. Modules split the code. 
+
+2. Nodes' rise in popularity is due to its ability to run code directly on the
+server. This allows it to do things like serve HTML directly to crawlers, which
+greatly improves SEO. The server's ability to directly generate HTML, instead
+of having the client do it also can greatly enhance performance. 
+
+An isomorphic application is a JavaScript application that can run both on the client
+and server sides. 
+
+Examples of companies using Node.js
+
+1. Trello with its project management app.
+2. Home Made (a service that involves leasing residential properties in London). It uses 
+   Node.js to connect its large databases to a high-performance, user-friendly webapp.
+3. Nasa. Used Node to move the data they had on EVA spacesuits from one cloud database
+   to another to reduce access times. Node cut the number of steps in the process by a
+   factor of 4. 
